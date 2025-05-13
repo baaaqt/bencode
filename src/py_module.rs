@@ -22,7 +22,7 @@ impl Bencoder {
 }
 
 #[allow(unused_variables)]
-#[pymodule(name = "bencode")]
+#[pymodule(name = "bencoders")]
 pub fn __module(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<Bencoder>()?;
     Ok(())

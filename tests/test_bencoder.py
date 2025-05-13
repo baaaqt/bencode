@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from pet import Bencoder
+from bencode import Bencoder
 
 
 class TestBencoder(TestCase):

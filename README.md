@@ -1,6 +1,5 @@
 # bencoders
-
-A Python library of the Bencode encoding format, widely used in BitTorrent protocol implemented in Rust.
+Bencode decoder for Python, implemented on Rust.
 
 # Usage
 ```python
